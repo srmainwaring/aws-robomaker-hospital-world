@@ -44,7 +44,7 @@
                 <vertices id="ID10">
                     <input semantic="POSITION" source="#ID4"/>
                 </vertices>
-                <polylist count="373" material="">
+                <polylist count="373">
                     <input offset="0" semantic="VERTEX" source="#ID10"/>
                     <input offset="1" semantic="NORMAL" source="#ID6"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID8" set="0"/>
@@ -87,7 +87,7 @@
                 <vertices id="ID19">
                     <input semantic="POSITION" source="#ID13"/>
                 </vertices>
-                <polylist count="122" material="">
+                <polylist count="122">
                     <input offset="0" semantic="VERTEX" source="#ID19"/>
                     <input offset="1" semantic="NORMAL" source="#ID15"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID17" set="0"/>
@@ -130,7 +130,7 @@
                 <vertices id="ID28">
                     <input semantic="POSITION" source="#ID22"/>
                 </vertices>
-                <polylist count="64" material="">
+                <polylist count="64">
                     <input offset="0" semantic="VERTEX" source="#ID28"/>
                     <input offset="1" semantic="NORMAL" source="#ID24"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID26" set="0"/>
@@ -173,7 +173,7 @@
                 <vertices id="ID37">
                     <input semantic="POSITION" source="#ID31"/>
                 </vertices>
-                <polylist count="252" material="">
+                <polylist count="252">
                     <input offset="0" semantic="VERTEX" source="#ID37"/>
                     <input offset="1" semantic="NORMAL" source="#ID33"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID35" set="0"/>
@@ -216,7 +216,7 @@
                 <vertices id="ID46">
                     <input semantic="POSITION" source="#ID40"/>
                 </vertices>
-                <polylist count="112" material="">
+                <polylist count="112">
                     <input offset="0" semantic="VERTEX" source="#ID46"/>
                     <input offset="1" semantic="NORMAL" source="#ID42"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID44" set="0"/>
@@ -259,7 +259,7 @@
                 <vertices id="ID55">
                     <input semantic="POSITION" source="#ID49"/>
                 </vertices>
-                <polylist count="566" material="">
+                <polylist count="566">
                     <input offset="0" semantic="VERTEX" source="#ID55"/>
                     <input offset="1" semantic="NORMAL" source="#ID51"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID53" set="0"/>
@@ -302,7 +302,7 @@
                 <vertices id="ID64">
                     <input semantic="POSITION" source="#ID58"/>
                 </vertices>
-                <polylist count="195" material="">
+                <polylist count="195">
                     <input offset="0" semantic="VERTEX" source="#ID64"/>
                     <input offset="1" semantic="NORMAL" source="#ID60"/>
                     <input offset="2" semantic="TEXCOORD" source="#ID62" set="0"/>
