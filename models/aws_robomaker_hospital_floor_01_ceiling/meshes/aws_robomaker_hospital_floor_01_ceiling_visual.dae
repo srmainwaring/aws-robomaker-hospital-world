@@ -30,10 +30,10 @@
                 <technique sid="COMMON">
                     <blinn>
                         <emission>
-                               <color> 0.30000 0.30000 0.30000 1</color>
+                               <color> 0.0955 0.0955 0.0955 1</color>
                         </emission>
                         <ambient>
-                               <color>0.75 0.75 0.75 1</color>
+                               <color>0.239 0.239 0.239 1</color>
                         </ambient>
                         <diffuse>
                             <texture texture="ID5" texcoord="UVSET0"/>
