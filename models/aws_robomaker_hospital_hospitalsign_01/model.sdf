@@ -8,6 +8,16 @@
             <uri>model://aws_robomaker_hospital_hospitalsign_01/meshes/aws_robomaker_hospital_hospitalsign_01_visual.dae</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1 1 1</diffuse>
+          <specular>1 1 1</specular>
+          <pbr>
+            <metal>
+                <albedo_map>model://aws_robomaker_hospital_hospitalsign_01/meshes/aws_robomaker_hospital_hospitalsign_01.png</albedo_map>
+                <normal_map>model://aws_robomaker_hospital_hospitalsign_01/meshes/aws_robomaker_hospital_hospitalsign_01_normal.png</normal_map>
+            </metal>
+          </pbr>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -15,7 +25,7 @@
             <uri>model://aws_robomaker_hospital_hospitalsign_01/meshes/aws_robomaker_hospital_hospitalsign_01_collision.dae</uri>
           </mesh>
         </geometry>
-      </collision>    
+      </collision>
 </link>
   <static>1</static>
   </model>
