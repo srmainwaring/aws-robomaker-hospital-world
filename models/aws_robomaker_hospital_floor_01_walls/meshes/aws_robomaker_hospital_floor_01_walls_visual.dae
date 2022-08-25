@@ -50,12 +50,12 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                      <emission>
-                          <color>0.0637 0.0637 0.0637 1</color>
-                      </emission>
-                      <ambient>
-                          <color>0.159 0.159 0.159 1</color>
-                      </ambient> 
+                        						<emission>
+							<color>0.20000 0.20000 0.20000 1</color>
+						</emission>
+						<ambient>
+							<color>0.5 0.5 0.5 1</color>
+						</ambient> 
                         <diffuse>
                             <texture texture="ID5" texcoord="UVSET0"/>
                         </diffuse>
@@ -77,12 +77,12 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                        <emission>
-                            <color> 0.0955 0.0955 0.0955 1</color>
-                        </emission>
-                        <ambient>
-                            <color>0.191 0.191 0.191 1</color>
-                        </ambient>
+                        						<emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID10" texcoord="UVSET0"/>
                         </diffuse>
@@ -104,12 +104,12 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                        <emission>
-                            <color> 0.0955 0.0955 0.0955 1</color>
-                        </emission>
-                        <ambient>
-                            <color>0.191 0.191 0.191 1</color>
-                        </ambient>
+                        						<emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID15" texcoord="UVSET0"/>
                         </diffuse>
@@ -131,12 +131,12 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                        <emission>
-                            <color> 0.0955 0.0955 0.0955 1</color>
-                        </emission>
-                        <ambient>
-                            <color>0.191 0.191 0.191 1</color>
-                        </ambient>
+                        						<emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID20" texcoord="UVSET0"/>
                         </diffuse>
@@ -158,12 +158,13 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                      <emission>
-                          <color> 0.0955 0.0955 0.0955 1</color>
-                      </emission>
-                      <ambient>
-                          <color>0.191 0.191 0.191 1</color>
-                      </ambient>
+                        						<emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID25" texcoord="UVSET0"/>
                         </diffuse>
@@ -185,12 +186,13 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                      <emission>
-                          <color> 0.0955 0.0955 0.0955 1</color>
-                      </emission>
-                      <ambient>
-                          <color>0.191 0.191 0.191 1</color>
-                      </ambient>
+                       <emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID30" texcoord="UVSET0"/>
                         </diffuse>
@@ -212,12 +214,13 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                        <emission>
-                            <color> 0.0955 0.0955 0.0955 1</color>
-                        </emission>
-                        <ambient>
-                            <color>0.191 0.191 0.191 1</color>
-                        </ambient>
+                        						<emission>
+							<color>0.30000 0.30000 0.30000 1</color>
+
+						</emission>
+						<ambient>
+							<color>0.600000 0.60000 0.60000 1</color>
+						</ambient>
                         <diffuse>
                             <texture texture="ID35" texcoord="UVSET0"/>
                         </diffuse>
@@ -239,15 +242,15 @@
                 </newparam>
                 <technique sid="COMMON">
                     <blinn>
-                      <emission>
-                          <color>0.318 0.318 0.318 1</color>
-                      </emission>
-                      <ambient>
-                          <color>0.318 0.318 0.318 1</color>
-                      </ambient>
-                      <diffuse>
-                          <texture texture="ID40" texcoord="UVSET0"/>
-                      </diffuse>
+                        						<emission>
+							<color>1.000000 1.00000 1.00000 1</color>
+						</emission>
+						<ambient>
+							<color>1.00000 1.00000 1.00000 1</color>
+						</ambient>
+                        <diffuse>
+                            <texture texture="ID40" texcoord="UVSET0"/>
+                        </diffuse>
                     </blinn>
                 </technique>
             </profile_COMMON>
