@@ -8,7 +8,7 @@
             <uri>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_door_visual.dae</uri>
           </mesh>
         </geometry>
-        <material>
+        <!-- <material>
           <diffuse>1 1 1</diffuse>
           <specular>1 1 1</specular>
           <pbr>
@@ -17,7 +17,7 @@
               <normal_map>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_visual_normal.png</normal_map>
             </metal>
           </pbr>
-        </material>
+        </material> -->
       </visual>
       <collision name="collision">
         <geometry>
