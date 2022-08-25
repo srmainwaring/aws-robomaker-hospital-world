@@ -266,7 +266,6 @@
       </include>
     </model>
 
-    <!-- 
     <model name="aws_robomaker_residential_CoffeeTable_01_1">
       <include>
         <uri>model://aws_robomaker_residential_CoffeeTable_01</uri>
@@ -330,8 +329,17 @@
         <pose>2 16 0 0 0 0</pose>
       </include>
     </model>
-    -->
-    <model name="MopCart3_1">
+    
+      <!-- @online{GazeboFuel-OpenRobotics-MopCart3,
+        title={MopCart3},
+        organization={Open Robotics},
+        date={2020},
+        month={June},
+        day={1},
+        author={OpenRobotics},
+        url={https://fuel.gazebosim.org/1.0/OpenRobotics/models/MopCart3},
+      } -->
+      <model name="MopCart3_1">
       <include>
         <uri>model://MopCart3</uri>
         <static>true</static>
@@ -407,7 +415,6 @@
       </include>
     </model>
 
-    <!-- 
     <model name="aws_robomaker_residential_PortraitE_01_1">
       <include>
         <uri>model://aws_robomaker_residential_PortraitE_01</uri>
@@ -415,7 +422,6 @@
         <pose>4 8 0 0 0 0</pose>
       </include>
     </model>
-    -->
     
     <!-- @online{GazeboFuel-OpenRobotics-InstrumentCart1,
       title={InstrumentCart1},
@@ -519,10 +525,9 @@
       </include>
     </model>
 
-    <!-- 
     <model name="aws_robomaker_hospital_floor_01_ceiling_1">
       <include>
-        <uri>model://aws_robomaker_hospital_floor_01_ceiling</uri>
+        <uri>models://aws_robomaker_hospital_floor_01_ceiling</uri>
         <static>true</static>
         <pose>6 0 0 0 0 0</pose>
       </include>
@@ -530,12 +535,11 @@
 
     <model name="aws_robomaker_hospital_ramp_01_1">
       <include>
-        <uri>model://aws_robomaker_hospital_ramp_01</uri>
+        <uri>models://aws_robomaker_hospital_ramp_01</uri>
         <static>true</static>
         <pose>6 2 0 0 0 0</pose>
       </include>
     </model>
-    -->
     
     <!-- @online{GazeboFuel-OpenRobotics-AnesthesiaMachine,
       title={AnesthesiaMachine},
@@ -639,7 +643,6 @@
       </include>
     </model>
 
-    <!-- 
     <model name="aws_robomaker_residential_PortraitD_01_1">
       <include>
         <uri>model://aws_robomaker_residential_PortraitD_01</uri>
@@ -655,7 +658,6 @@
         <pose>8 2 0 0 0 0</pose>
       </include>
     </model>
-    -->
 
     <!-- @online{GazeboFuel-OpenRobotics-ParkingTrolleyMin,
       title={ParkingTrolleyMin},
@@ -759,7 +761,6 @@
       </include>
     </model>
 
-    <!--
     <model name="aws_robomaker_warehouse_ClutteringC_01_1">
       <include>
         <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
@@ -775,7 +776,6 @@
         <pose>8 20 0 0 0 0</pose>
       </include>
     </model>
-    -->
 
     <!-- @online{GazeboFuel-OpenRobotics-ParkingTrolleyMax,
       title={ParkingTrolleyMax},

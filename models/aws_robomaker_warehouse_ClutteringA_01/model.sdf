@@ -47,7 +47,9 @@
             <uri>model://aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
           </mesh>
         </geometry>
-        <meta> <layer> 1 </layer></meta>
+        <meta>
+          <layer> 1 </layer>
+        </meta>
       </visual>
     </link>
     <static>1</static>

@@ -22,7 +22,7 @@
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>file://models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE</uri>
           </mesh>
@@ -32,6 +32,6 @@
         </meta>
       </visual>
     </link>
-  <static>1</static>
+    <static>1</static>
   </model>
 </sdf>
