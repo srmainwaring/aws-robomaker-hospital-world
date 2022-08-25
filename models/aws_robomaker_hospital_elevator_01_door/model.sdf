@@ -3,7 +3,7 @@
   <model name="aws_robomaker_hospital_elevator_01_door">
     <link name="link">
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_door_visual.dae</uri>
           </mesh>
@@ -13,8 +13,8 @@
           <specular>1 1 1</specular>
           <pbr>
             <metal>
-                <albedo_map>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_visual.png</albedo_map>
-                <normal_map>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_visual_normal.png</normal_map>
+              <albedo_map>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_visual.png</albedo_map>
+              <normal_map>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_visual_normal.png</normal_map>
             </metal>
           </pbr>
         </material>
@@ -25,8 +25,8 @@
             <uri>model://aws_robomaker_hospital_elevator_01_door/meshes/aws_robomaker_hospital_elevator_01_door_collision.dae</uri>
           </mesh>
         </geometry>
-      </collision>    
-</link>
-  <static>1</static>
+      </collision>
+    </link>
+    <static>1</static>
   </model>
 </sdf>

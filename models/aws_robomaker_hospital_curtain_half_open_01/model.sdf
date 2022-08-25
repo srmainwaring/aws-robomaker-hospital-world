@@ -3,7 +3,7 @@
   <model name="aws_robomaker_hospital_curtain_half_open_01">
     <link name="link">
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_hospital_curtain_half_open_01/meshes/aws_robomaker_hospital_curtain_half_open_01_visual.dae</uri>
           </mesh>
@@ -15,8 +15,8 @@
             <uri>model://aws_robomaker_hospital_curtain_half_open_01/meshes/aws_robomaker_hospital_curtain_half_open_01_collision.dae</uri>
           </mesh>
         </geometry>
-      </collision>    
-</link>
-  <static>1</static>
+      </collision>
+    </link>
+    <static>1</static>
   </model>
 </sdf>
