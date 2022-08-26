@@ -36,7 +36,7 @@
         </image>
     </library_images>
     <library_effects>
-        <effect id="ID2">
+        <!-- <effect id="ID2">
             <profile_COMMON>
                 <newparam sid="ID4">
                     <surface type="2D">
@@ -62,8 +62,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID2">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID3" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID7">
+        <!-- <effect id="ID7">
             <profile_COMMON>
                 <newparam sid="ID9">
                     <surface type="2D">
@@ -89,8 +132,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID7">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID8" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID12">
+        <!-- <effect id="ID12">
             <profile_COMMON>
                 <newparam sid="ID14">
                     <surface type="2D">
@@ -116,8 +202,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID12">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID13" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID17">
+        <!-- <effect id="ID17">
             <profile_COMMON>
                 <newparam sid="ID19">
                     <surface type="2D">
@@ -143,8 +272,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID17">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID18" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID22">
+        <!-- <effect id="ID22">
             <profile_COMMON>
                 <newparam sid="ID24">
                     <surface type="2D">
@@ -171,8 +343,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID22">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID23" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID27">
+        <!-- <effect id="ID27">
             <profile_COMMON>
                 <newparam sid="ID29">
                     <surface type="2D">
@@ -199,8 +414,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID27">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID28" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID32">
+        <!-- <effect id="ID32">
             <profile_COMMON>
                 <newparam sid="ID34">
                     <surface type="2D">
@@ -227,8 +485,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID32">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID33" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID37">
+        <!-- <effect id="ID37">
             <profile_COMMON>
                 <newparam sid="ID39">
                     <surface type="2D">
@@ -254,6 +555,49 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID37">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID38" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
     </library_effects>
     <library_materials>

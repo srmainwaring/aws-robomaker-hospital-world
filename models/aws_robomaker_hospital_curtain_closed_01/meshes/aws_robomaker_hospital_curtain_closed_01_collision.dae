@@ -18,7 +18,7 @@
         </image>
     </library_images>
     <library_effects>
-        <effect id="ID2">
+        <!-- <effect id="ID2">
             <profile_COMMON>
                 <newparam sid="ID4">
                     <surface type="2D">
@@ -44,8 +44,51 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID2">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID3" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
-        <effect id="ID7">
+        <!-- <effect id="ID7">
             <profile_COMMON>
                 <newparam sid="ID9">
                     <surface type="2D">
@@ -71,6 +114,49 @@
                     </blinn>
                 </technique>
             </profile_COMMON>
+        </effect> -->
+        <effect id="ID7">
+          <profile_COMMON>
+            <technique sid="standard">
+              <phong>
+                <emission>
+                  <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+                </emission>
+                <ambient>
+                  <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+                </ambient>
+                <diffuse>
+                  <texture texture="ID8" texcoord="CHANNEL0">
+                    <extra>
+                      <technique profile="MAYA">
+                        <wrapU sid="wrapU0">TRUE</wrapU>
+                        <wrapV sid="wrapV0">TRUE</wrapV>
+                        <blend_mode>ADD</blend_mode>
+                      </technique>
+                    </extra>
+                  </texture>
+                </diffuse>
+                <specular>
+                  <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+                </specular>
+                <shininess>
+                  <float sid="shininess">2.000000</float>
+                </shininess>
+                <reflective>
+                  <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+                </reflective>
+                <reflectivity>
+                  <float sid="reflectivity">1.000000</float>
+                </reflectivity>
+                <transparent opaque="RGB_ZERO">
+                  <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+                </transparent>
+                <transparency>
+                  <float sid="transparency">0.000000</float>
+                </transparency>
+              </phong>
+            </technique>
+          </profile_COMMON>
         </effect>
     </library_effects>
     <library_materials>
