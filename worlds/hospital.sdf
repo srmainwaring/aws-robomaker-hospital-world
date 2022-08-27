@@ -30,7 +30,7 @@
     <!-- Lights (from small-house ) -->
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
-      <pose frame=''>0 0 10 0 -0 0</pose>
+      <pose frame=''>0 0 10 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
@@ -43,7 +43,7 @@
     </light>
   <!--
     <light name='LivingRoom_CeilingLight_0' type='point'>
-      <pose frame=''>1.194296 4.155759 2.2 0 -0 0</pose>
+      <pose frame=''>1.194296 4.155759 2.2 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -56,7 +56,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='LivingRoom_CeilingLight_1' type='point'>
-      <pose frame=''>1.194296 -1.589959 2.2 0 -0 0</pose>
+      <pose frame=''>1.194296 -1.589959 2.2 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -69,7 +69,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='LivingRoom_WallLight_0' type='point'>
-      <pose frame=''>1.76956 -5.444370 2.2 0 -0 0</pose>
+      <pose frame=''>1.76956 -5.444370 2.2 0 0 0</pose>
       <diffuse>0.24 0.24 0.24 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -82,7 +82,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='LivingRoom_WallLight_1' type='point'>
-      <pose frame=''>-0.13826 -5.444370 2.2 0 -0 0</pose>
+      <pose frame=''>-0.13826 -5.444370 2.2 0 0 0</pose>
       <diffuse>0.24 0.24 0.24 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -95,7 +95,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='TV_Light_0' type='point'>
-      <pose frame=''>0.8269 -4.939577 1.1 0 -0 0</pose>
+      <pose frame=''>0.8269 -4.939577 1.1 0 0 0</pose>
       <diffuse>0.31372 0.31372 0.34901 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -108,7 +108,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='BedRoom_Portrait_Light_0' type='spot'>
-      <pose frame=''>-6.190379 -1.829697 1.5587 0.3 -0 0.0</pose>
+      <pose frame=''>-6.190379 -1.829697 1.5587 0.3 0 0.0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -126,7 +126,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='BedRoom_CeilingLight_0' type='point'>
-      <pose frame=''>-6.451061 -0.692040 2.000000 0 -0 0</pose>
+      <pose frame=''>-6.451061 -0.692040 2.000000 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -139,7 +139,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='Kitchen_CeilingLight_0' type='point'>
-      <pose frame=''>7.8582 -1.5905 2.280000 0 -0 0</pose>
+      <pose frame=''>7.8582 -1.5905 2.280000 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -320,7 +320,7 @@
       <include>
         <uri>model://Scrubs</uri>
         <static>true</static>
-        <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
+        <pose>0.054597 4.05849 0 0 0 3.12413</pose>
       </include>
     </model>
     <model name="PatientWheelChair_1">
